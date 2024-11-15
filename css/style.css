@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Redressed&display=swap');
+
+
+
+body {
+
+    .merriweather {
+        font-family: 'Merriweather', serif;
+    }
+
+    .redressed {
+        font-family: 'Redressed', cursive;
+    }
+    
+    header {
+    .menu-nav {
+        background-color: rgba(0, 0, 0, 0.55) !important;
+        font-family: 'Merriweather', serif;
+        box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54);
+        z-index: 1;
+        
+        .nav-link {
+            border-bottom: 1px solid transparent;
+            transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
+
+            &:hover {
+                /* border-color: 2px solid var(--bs-teal); */
+                /* transition: 0.3s ease-in-out; */
+                border-bottom-color: var(--bs-teal);
+                padding-bottom: 20px;
+            }
+        }
+    }
+
+    .btn-commande {
+        color: var(--bs-teal);
+        border-color: var(--bs-teal);
+        transition: 0.5s;
+    
+        &:hover,
+        &:active {
+            color: #fff;
+            background-color: var(--bs-teal);
+        }
+    }
+
+    .banniere {
+
+        .titre-banniere {
+            color: #fff;
+            font-size: 48px;
+            font-weight: 400;
+        }
+
+        background: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(../img/banniere2.jpg) center center no-repeat
+        ;
+        background-size: cover;
+        height: 90vh;
+
+        /* .redressed {
+            font-family: 'Redressed', cursive;
+        } */
+        }
+    }
+
+    .nos-varietes {
+
+        background: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(../img/banniere2.jpg) center center no-repeat
+        ;
+        background-size: cover;
+        height: auto;
+
+        }   
+}
+
+
+
+
+
+
+
