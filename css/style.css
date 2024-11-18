@@ -4,9 +4,15 @@
 
 body {
 
-    .merriweather {
+    font-family: 'Merriweather', serif;
+
+    /* h1, h2, h3 {
+        font-family: 'Redressed', cursive;
+    } */
+
+    /* .merriweather {
         font-family: 'Merriweather', serif;
-    }
+    } */
 
     .redressed {
         font-family: 'Redressed', cursive;
@@ -75,8 +81,26 @@ body {
         height: auto;
 
         }   
-}
 
+    .form-commande {
+        background: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(../img/banniere2.jpg) center center no-repeat
+        ;
+        background-size: cover;
+        min-height: 500px;
+    }
+
+.btn-envoi {
+    background-color: rgb(153, 50, 153);
+    border: none;
+    
+    &:hover {
+        background-color: rgb(153, 50, 153);
+        color: black;
+        border: none;
+    }
+}
 
 
 
