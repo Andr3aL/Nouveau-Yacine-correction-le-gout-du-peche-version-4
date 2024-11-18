@@ -1,13 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Redressed&display=swap');
 
+* {
+    box-sizing: border-box;
+}
 
+html, nav {
+    max-width: 100%;
+}
 
 body {
-
-    /* margin: 0;
+    overflow-x: hidden;
+    margin: 0;
     padding: 0;
     scroll-behavior: smooth;
-    width: 100%; */
+    width: 100%;
 
     font-family: 'Merriweather', serif;
 
@@ -28,7 +34,7 @@ body {
         background-color: rgba(0, 0, 0, 0.55) !important;
         font-family: 'Merriweather', serif;
         box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54);
-        z-index: 1;
+        z-index: 2;
         
         .nav-link {
             border-bottom: 1px solid transparent;
@@ -136,6 +142,10 @@ footer {
         color: teal;
     }
 }
+
+/* footer a {
+    color: #fff !important;
+} */
 
 footer li {
     font-size: 12px;
