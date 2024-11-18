@@ -4,6 +4,11 @@
 
 body {
 
+    /* margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    width: 100%; */
+
     font-family: 'Merriweather', serif;
 
     /* h1, h2, h3 {
@@ -94,15 +99,62 @@ body {
 .btn-envoi {
     background-color: rgb(153, 50, 153);
     border: none;
-    
+
     &:hover {
         background-color: rgb(153, 50, 153);
         color: black;
         border: none;
     }
 }
+.svg {
+    color: white;
+    display: inline-block;
+    margin: 5px 10px;
 
+    &:hover {
+        color: teal;
+    }
+}
 
+footer {
+    
+    color: #fff;
+}
+
+#SVGRepo_bgCarrier {
+    color: #fff;
+
+    &:hover {
+        color: teal;
+    }
+}
+
+.footerContent{
+    color: #fff;
+
+    &:hover {
+        color: teal;
+    }
+}
+
+footer li {
+    font-size: 12px;
+}
+footer h5 {
+    font-size: 17px;
+}
+
+.hh5 {
+    text-decoration: none;
+    list-style-type: none;
+    color: #fff;
+
+    &:hover {
+        color: teal;
+    }
+}
+
+}
 
 
 
